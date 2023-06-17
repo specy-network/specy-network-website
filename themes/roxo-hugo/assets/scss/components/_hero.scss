@@ -1,0 +1,92 @@
+.site-hero {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: -300px;
+
+  @include desktop {
+    height: auto;
+    padding: 200px 0;
+  }
+
+  @include mobile {
+    padding: 150px 0;
+  }
+
+  &-content {
+    h1 {
+      margin-bottom: 15px;
+      color: #fff;
+
+      @include desktop-lg {
+        font-size: 40px;
+        margin-bottom: 50px;
+      }
+
+      @include mobile {
+        font-size: 40px;
+      }
+    }
+
+    h6 {
+      color: #fff;
+      margin-bottom: 75px;
+      font-size: 40px;
+    }
+
+    &-buttons {
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+
+        @include mobile {
+          display: block;
+        }
+
+        border-radius: 15px;
+
+        &:not(:last-child) {
+          margin-right: 30px;
+          background: linear-gradient(70deg, #be10bc 0%, #c34040 40%, #7d13a4 100%);
+
+          @include mobile {
+            margin-right: 0;
+            margin-bottom: 20px;
+          }
+        }
+
+        &:not(:first-child) {
+          border: #fff 2px solid;
+
+
+        }
+
+        .btn {
+          font-weight: 600;
+
+          background: none;
+
+          @include mobile {
+            width: 90%;
+            margin: 0 auto;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  &-scroll {
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+    transform: translateX(-50%);
+  }
+}
