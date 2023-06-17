@@ -1,6 +1,6 @@
 enable  : true
 title   : "Specy Network"
-subtitle: "It is a decentralized and inter chain NFT aware automation network of Cosmos, with the following characteristics."
+subtitle: "It is a decentralized and interchainNFT-aware automation network of Cosmos, with the following characteristics."
 testimonial_item :
   - thumb : "images/testimonial/features-1.svg"
     name  : "Decentralize"
