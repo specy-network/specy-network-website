@@ -14,7 +14,7 @@ summarylength = 25
   
   [[menu.nav]]
     name    = "Projects"
-    url     = "https://www.youtube.com/watch?v=bvVBg1DeVsQ"
+    url     = "https://www.youtube.com/watch?v=2Qr6-xLnkGk"
     weight  = 2
 
   [[menu.nav]]
@@ -69,7 +69,7 @@ summarylength = 25
     heading               = ""
     tagline               = "Specy Network is the automation engine of cosmos ecosystem"
     primary_button        = "START BUILDING"
-    primary_button_url    = "https://www.youtube.com/watch?v=bvVBg1DeVsQ"
+    primary_button_url    = "https://www.youtube.com/watch?v=2Qr6-xLnkGk"
     secondary_button      = "READ DOCS"
     secondary_button_url  = "https://specy-network.gitbook.io/specy-network/introduction/what-is-specy-network"
   
