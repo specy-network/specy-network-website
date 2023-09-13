@@ -1,10 +1,11 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Specy Network"
-theme = "Agnes"
+title = "Agnes Site"
+theme = "agnes-hugo-theme"
+
 [params]
 	dateFormat = "Jan 2, 2023" 
-	authorName = "Specy-network"
+	authorName = "Ported to Hugo by Debashish"
 	google_analytics_id = "GA-"
 	
 [menu]
@@ -32,35 +33,28 @@ theme = "Agnes"
 	TwitterURL = "https://twitter.com/podbharati"
 	GoogleURL = "http://google.com"
 	FacebookURL = "https://facebook.com/podbharati"
-	GithubURL="https://github.com/specy-network"
 		
 [params.content]
 	LeadTitle = "Landing template for Startups"
-	LeadDescription = "Specy Network is the automation engine of cosmos ecosystem ."
-	ButtonFirstlyCaption = "Lunch App"
-	ButtonFirstlyURL = "http://10.100.117.38:5174"
-	ButtonSecondaryCaption = "Go to Docs"
-	
-	ButtonSecondaryURL = "https://specy-network.gitbook.io/specy-network/introduction/what-is-specy-network"
-
-	ImageURL="images/main1.png"
-	Logo= "images/specylogo.png"
+	LeadDescription = "Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever."
+	ButtonCaption = "Pricing & Plans"
+	ButtonURL = "http://google.com"
 
 ################### Feature Columns (do not exceed 4) ####################
 
 [[params.feature]]
-	FeatureTitle = "Decentralize"
-	FeatureDescription = "Tasks are store in the chain and multiple Executors are operating task with a simple PoS consensus."
+	FeatureTitle = "Feature 1"
+	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
 	FeatureImage = "images/feature-1.png"
 	
 [[params.feature]]
-	FeatureTitle = "Reliable"
-	FeatureDescription = "Task will be run in the SGX enviroment, and the result will return with a proof."
+	FeatureTitle = "Feature 2"
+	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
 	FeatureImage = "images/feature-2.png"
 
 [[params.feature]]
-	FeatureTitle = "Interchain-Aware"
-	FeatureDescription = "Executors can collect multi-chain information and help users make a better decision."
+	FeatureTitle = "Feature 3"
+	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
 	FeatureImage = "images/feature-3.png"
 	
 [[params.feature]]
@@ -71,9 +65,9 @@ theme = "Agnes"
 ################### Pricing Columns (do not exceed 3) ####################
 
 [[params.pricing]]
-	PricingTitle = "Friends"
+	PricingTitle = "Starter"
 	PricingRate = "27"	
-	ButtonCaption = "Learn More"
+	ButtonCaption = "Get Early Access"
 	[[params.pricing.Features]]
 		Description = "Lorem ipsum is common text"
 	[[params.pricing.Features]]
@@ -84,9 +78,9 @@ theme = "Agnes"
 		Description = "Lorem ipsum is common text"	
 
 [[params.pricing]]
-	PricingTitle = "Limit Order"
+	PricingTitle = "Professional"
 	PricingRate = "97"
-	ButtonCaption = "Coming Soon"
+	ButtonCaption = "Get Earlier Access"
 	[[params.pricing.Features]]
 		Description = "Lorem ipsum is common text"
 	[[params.pricing.Features]]
@@ -97,9 +91,9 @@ theme = "Agnes"
 		Description = "Lorem ipsum is common text"		
 	
 [[params.pricing]]
-	PricingTitle = "NFTs"
+	PricingTitle = "Business"
 	PricingRate = "147"
-	ButtonCaption = "Coming Soon"
+	ButtonCaption = "Get Earliest Access"
 	[[params.pricing.Features]]
 		Description = "Lorem ipsum is common text"
 	[[params.pricing.Features]]
