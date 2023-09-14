@@ -1,10 +1,10 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Specy Network"
+title = "Specy Network Website"
 theme = "Agnes"
 [params]
 	dateFormat = "Jan 2, 2023" 
-	authorName = "Specy-network"
+	authorName = "Specy-Network"
 	google_analytics_id = "GA-"
 	
 [menu]
@@ -35,10 +35,10 @@ theme = "Agnes"
 	GithubURL="https://github.com/specy-network"
 		
 [params.content]
-	LeadTitle = "Landing template for Startups"
-	LeadDescription = "Specy Network is the automation engine of cosmos ecosystem ."
+	LeadTitle = "Automation Made Easy"
+	LeadDescription = "A COSMOS Layer1 for verifiable low-code automation on multichains."
 	ButtonFirstlyCaption = "Lunch App"
-	ButtonFirstlyURL = "http://10.100.117.38:5174"
+	ButtonFirstlyURL = "http://3.145.81.95:5173"
 	ButtonSecondaryCaption = "Go to Docs"
 	
 	ButtonSecondaryURL = "https://specy-network.gitbook.io/specy-network/introduction/what-is-specy-network"
@@ -49,23 +49,23 @@ theme = "Agnes"
 ################### Feature Columns (do not exceed 4) ####################
 
 [[params.feature]]
-	FeatureTitle = "Decentralize"
-	FeatureDescription = "Tasks are store in the chain and multiple Executors are operating task with a simple PoS consensus."
+	FeatureTitle = "Automation Programming Language"
+	FeatureDescription = ""
 	FeatureImage = "images/feature-1.png"
 	
 [[params.feature]]
-	FeatureTitle = "Reliable"
-	FeatureDescription = "Task will be run in the SGX enviroment, and the result will return with a proof."
+	FeatureTitle = "Verifiable Task Execution"
+	FeatureDescription = ""
 	FeatureImage = "images/feature-2.png"
 
 [[params.feature]]
-	FeatureTitle = "Interchain-Aware"
-	FeatureDescription = "Executors can collect multi-chain information and help users make a better decision."
+	FeatureTitle = "Multi-chain Support"
+	FeatureDescription = ""
 	FeatureImage = "images/feature-3.png"
 	
 [[params.feature]]
-	FeatureTitle = "Feature 4"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
+	FeatureTitle = "Open Framework"
+	FeatureDescription = ""
 	FeatureImage = "images/feature-4.png"
 	
 ################### Pricing Columns (do not exceed 3) ####################

@@ -1228,12 +1228,12 @@ label {
 
 .button-primary {
     background: #69a7e4;
-    background: linear-gradient(65deg, #205ccc 0, #3e86d2 100%)
+    background: linear-gradient(65deg, #0181ff 0, #00b3ff 100%)
 }
 
 .button-primary:hover {
     background: #69a7e4;
-    background: linear-gradient(65deg, #4a7ddc 0, #79afea 100%)
+    background: linear-gradient(65deg, #0181ff 0, #00b3ff 100%)
 }
 
 .button-primary.button-shadow::before {
@@ -1356,7 +1356,8 @@ label {
 
     .hero-copy {
         padding-right: 48px;
-        min-width: 512px
+        min-width: 512px;
+        margin-top: 60px;
     }
 
     .hero-illustration {
@@ -1404,9 +1405,9 @@ label {
 }
 
 .feature {
-    padding: 12px;
-    width: 276px;
-    max-width: 276px;
+    padding: 30px;
+    width: 550px;
+    max-width: 550px;
     flex-grow: 1
 }
 
