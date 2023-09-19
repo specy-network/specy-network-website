@@ -1,0 +1,28 @@
+---
+enable: true
+topTitle: 
+title: >
+  ## Project Grow
+
+  The Specy-Network project is rapidly developing, providing a better experience of interchain task automation through continuous optimization of architecture design.
+ 
+
+  At the same time, it has already made initial appearances in some competitions.
+tab1Name: Awards
+tab2Name: Ecology
+tab1Target: education
+tab2Target: experience
+
+education:
+  - content: >
+      #### Won awards in competition
+
+      The project stood out in the Wanxiang hackathon competition and won an award.
+    time: Q3 of 2023
+
+experience:
+  - content: >
+      #### First application
+
+      We tested the interchain automation task service capability of Specy-Netwok by designing a social dapp demo.
+    time: Q3 of 2023

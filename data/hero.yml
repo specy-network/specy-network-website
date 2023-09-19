@@ -1,0 +1,12 @@
+---
+enable: true
+topTitle: 
+content: >
+  # Automation Made Easy
+
+  A COSMOS Layer1 for verifiable low-code automation on multichains.
+buttonName: Lunch
+buttonURL: contact
+image: images/hero/cosmos.png
+videoThumb: images/hero/cosmos1.jpg
+videoURL: https://www.youtube.com/watch?v=etSlNtQbAkE

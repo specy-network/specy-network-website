@@ -1,0 +1,30 @@
+---
+enable: true
+topTitle: 
+title: >
+  ## Architectural Features
+
+  
+service:
+  - content: >
+      #### Programming Language
+
+      Designed a programming language specifically for automated task definition, making task definition simpler.
+    image: images/service/ui-ux.svg
+  - content: >
+      #### Verifiable Task Execution
+
+      Specy Network introduced  tee and zk, to provide proof of the execution process from a cryptographic perspective.
+    image: images/service/web.svg
+  - content: >
+      #### Multi-chain Task Support 
+
+
+
+      Specy network is implemented based on the Cosmos  IBC architecture, to achieve multi chain automated task support.
+    image: images/service/creative.svg
+  - content: >
+      #### More Open Framework 
+
+      The design of the spec network makes it scalable and compatible with existing automation services.
+    image: images/service/branding.svg
