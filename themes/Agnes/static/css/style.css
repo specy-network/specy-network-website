@@ -1453,6 +1453,12 @@ label {
     }
 }
 
+
+
+
+
+
+
 .pricing {
     position: relative;
     overflow: hidden
@@ -1681,6 +1687,33 @@ main {
 .footer-social-links li a {
     padding: 8px
 }
+
+
+
+.news-component {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    width: 60%;
+    margin: 0 auto;
+    /* box-shadow: 0 16px 48px rgba(31, 43, 53, 0.12); */
+    border-bottom: 1px solid rgba(31, 43, 53, 0.12);
+    border-radius: 5px;
+}
+
+.news-name {
+    flex: 1;
+}
+
+.news-date {
+    flex: 1;
+    text-align: right;
+}
+
+
 
 @media (min-width: 641px) {
     .site-footer-inner {

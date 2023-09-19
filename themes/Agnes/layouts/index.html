@@ -56,10 +56,13 @@
 </section> -->
 
 <!-- <section class="pricing section">
-	<div class="section-square"></div>
+	<div class="section-square">
+
+	</div>
 	<div class="container">
 		<div class="pricing-inner section-inner has-top-divider">
-			<h2 class="section-title mt-0 text-center">Use Case</h2>
+
+			<h2 class="section-title mt-0 text-center">News</h2>
 			<div class="pricing-tables-wrap">
 				{{ range site.Params.pricing }}
 				<div class="pricing-table">
@@ -92,8 +95,22 @@
 					</div>
 				</div>
 				{{ end }}
+
 			</div>
 		</div>
 	</div>
 </section> -->
+
+<section class="news ">
+	<div class="section-title section-inner has-top-divider">
+		<h2 class="section-title mt-10 text-center">News</h2>
+		{{range site.Params.news}}
+		<div class="news-component">
+			<div class="news-name">{{.NewsTitle}}</div>
+			<div class="news-date">{{.NewsDate}}</div>
+		</div>
+		{{end}}
+	</div>
+
+</section>
 {{ end }}

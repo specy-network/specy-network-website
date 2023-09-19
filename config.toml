@@ -108,3 +108,14 @@ theme = "Agnes"
 		Description = "Lorem ipsum is common text"
 	[[params.pricing.Features]]
 		Description = "Lorem ipsum is common text"	
+
+[[params.news]]
+	NewsTitle="Won prizes in 2023 Wanxiang Hackathon"
+	NewsDate="Q3 of 2023"
+	NewsContent=""
+[[params.news]]
+	NewsTitle="Specy-Network project initiation"
+	NewsDate="Q2 of 2023"
+	NewsContent=""
+
+	
