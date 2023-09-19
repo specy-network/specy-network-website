@@ -27,8 +27,7 @@
 						<h2 class="mb-0">Let’s Start a Task</h2>
 					</div>
 					<div class="footer__cta_action">
-						<a class="btn btn-light btn-zoom" href="{{ .Site.Params.contactLink | absURL }}">Lunch App
-						</a>
+						<a class="btn btn-light btn-zoom" target="_blank" href="{{ .Site.Params.contactLink | absURL }}">Lunch App</a>
 					</div>
 				</div>
 			</div>
@@ -69,11 +68,10 @@
 		<div class="row footer__footer">
 			<div class="col-lg-6">
 				<div class="footer__footer_copy text-light">
-					<p>Copyright {{ dateFormat "2006" now }} - All Rights Reserved by <a class="text-light"
-							href="https://staticmania.com/" target="_blank">Specy-Network</a></p>
+					<p>Copyright {{ dateFormat "2006" now }} - All Rights Reserved by <a class="text-light" href="#" target="_blank">Specy-Network</a></p>
 				</div>
 			</div>
-			<!-- <div class="col-lg-6">
+			<div class="col-lg-6">
 				<div class="footer__footer_social">
 					<ul class="unstyle-list">
 						{{ $social := .Site.Params.social }}
@@ -84,19 +82,19 @@
 						{{ end }}
 					</ul>
 				</div>
-			</div> -->
+			</div>
 		</div>
 	</div>
 </section>
 <script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.map.APIkey }}&libraries=geometry"></script>
-<script src="{{ " plugins/jQuery/jquery.min.js" | absURL }}"></script>
-<script src="{{ " plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
-<script src="{{ " plugins/slick/slick.min.js" | absURL }}"></script>
-<script src="{{ " plugins/waypoint/jquery.waypoints.min.js" | absURL }}"></script>
-<script src="{{ " plugins/magnafic-popup/jquery.magnific-popup.min.js" | absURL }}"></script>
-<script src="{{ " plugins/tweenmax/TweenMax.min.js" | absURL }}"></script>
-<script src="{{ " plugins/imagesloaded/imagesloaded.min.js" | absURL }}"></script>
-<script src="{{ " plugins/masonry/masonry.min.js" | absURL }}"></script>
+<script src="{{ "plugins/jQuery/jquery.min.js" | absURL }}"></script>
+<script src="{{ "plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
+<script src="{{ "plugins/slick/slick.min.js" | absURL }}"></script>
+<script src="{{ "plugins/waypoint/jquery.waypoints.min.js" | absURL }}"></script>
+<script src="{{ "plugins/magnafic-popup/jquery.magnific-popup.min.js" | absURL }}"></script>
+<script src="{{ "plugins/tweenmax/TweenMax.min.js" | absURL }}"></script>
+<script src="{{ "plugins/imagesloaded/imagesloaded.min.js" | absURL }}"></script>
+<script src="{{ "plugins/masonry/masonry.min.js" | absURL }}"></script>
 <!-- {{ $formhandler := resources.Get "js/form-handler.js" | minify }}
 <script src="{{ $formhandler.Permalink }}"></script> -->
 {{ $script := resources.Get "js/script.js" | minify }}

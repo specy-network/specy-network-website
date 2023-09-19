@@ -17,14 +17,8 @@ weight = 2
 [[menu.main]]
 name = "Feature"
 url = "#service"
-
 weight = 3
 
-
-[[menu.main]]
-name = "Contact"
-url = "#contact"
-weight = 4
 
 # Sitemap Menu
 [[menu.sitemap]]
@@ -46,7 +40,7 @@ weight = 4
 
 [params]
 blogPageURL = "blog"
-contactLink = "contact"
+contactLink = "http://3.145.81.95:5173"
 copyright = "All right reserved copyright © Portio 2020"
 footerLogo = "images/contact/widget-logo.png"
 # We're using formspree.io for form handling, paste your formspree url below
@@ -67,19 +61,8 @@ longitude = "90.3746808"
 pinImage = "images/pin.png"
 
 # Social icons
+
 [[params.social]]
-icon = "fa-facebook-official"
-url = "https://www.facebook.com/"
+icon = "fa-github-square"
+url = "https://github.com/specy-network"
 weight = 1
-[[params.social]]
-icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/"
-weight = 2
-[[params.social]]
-icon = "fa-pinterest-square"
-url = "https://www.pinterest.com/"
-weight = 3
-[[params.social]]
-icon = "fa-twitter-square"
-url = "https://twitter.com/"
-weight = 4

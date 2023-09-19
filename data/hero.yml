@@ -5,8 +5,8 @@ content: >
   # Automation Made Easy
 
   A COSMOS Layer1 for verifiable low-code automation on multichains.
-buttonName: Lunch
-buttonURL: contact
+buttonName: Go to docs
+buttonURL: https://specy-network.gitbook.io/specy-network/introduction/what-is-specy-network
 image: images/hero/cosmos.png
 videoThumb: images/hero/cosmos1.jpg
 videoURL: https://www.youtube.com/watch?v=etSlNtQbAkE
