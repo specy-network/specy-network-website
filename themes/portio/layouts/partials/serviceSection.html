@@ -62,6 +62,24 @@
                 </div>
             </div>
         </div>
+    
+        <div class="row news-container ">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="service__header mb-5">
+                    <span class="top-title pre-line">{{ .topTitle }}</span>
+                    {{ .newsTitle | markdownify }}
+                </div>
+            </div>
+            
+        </div>
+        <div class="row text-center  mt-5 ">
+            {{ $Section := .news }}
+                        {{ range $Section }}
+                <div class="col-md-5 col-sm-9 border-bottom p-1 mx-auto">{{.content}}</div>
+                <div class="col-md-5 col-sm-1 border-bottom p-1 mx-auto"></div>
+                <div class="col-md-2 col-sm-2 border-bottom p-1 mx-auto">{{.date}}</div>
+           {{end}}
+        </div>
     </div>
 </section>
 {{ end }}

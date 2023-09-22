@@ -9,16 +9,16 @@ name = "Home"
 url = "#home"
 weight = 1
 
-[[menu.main]]
-name = "Grow"
-url = "#resume"
-weight = 2
+
 
 [[menu.main]]
 name = "Feature"
 url = "#service"
+weight = 2
+[[menu.main]]
+name = "News"
+url = "#service"
 weight = 3
-
 
 # Sitemap Menu
 [[menu.sitemap]]
